@@ -1103,8 +1103,9 @@ ul{
 .animate-box{
   opacity: 0;
   text-decoration: none;
-  margin-left: 3rem;
+  margin-left: 0rem;
   padding: 8% 4%;
+  
 }
 .profiles #particles2-js {
   position: absolute;
@@ -1750,4 +1751,8 @@ form .button-area{
   width: 85%;
   z-index: -1;
 }
+}
+
+.mb-0{
+  margin-right: 2rem;
 }
