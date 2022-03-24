@@ -851,6 +851,17 @@ font-weight: bold;
       font-family: 'Ubuntu'
     font-weight: 600;
   }
+  .newflex{
+    position: relative;
+	z-index: 1;
+	display: flex;
+  flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  .new1{
+    margin-left: 70%;
+  }
   .about .row .content .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -1674,6 +1685,8 @@ form .button-area{
   margin-left: 5rem;
   text-decoration: none;
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
 }
 .alignrow{
   text-align: left;
