@@ -838,7 +838,7 @@ font-weight: bold;
     font-family: 'Ubuntu'
   }
   .about .row .content .tag{
-    font-family: 'Ubuntu'
+    font-family: 'Ubuntu';
     font-size: 1rem;
     color: #020133;
     font-weight: 600;
@@ -848,7 +848,7 @@ font-weight: bold;
   .about .row .content p{
     font-size: 1rem;
     margin-top: 1.5rem;
-      font-family: 'Ubuntu'
+      font-family: 'Ubuntu';
     font-weight: 600;
   }
   .newflex{
@@ -860,13 +860,13 @@ font-weight: bold;
 	align-items: center;
   }
   .new1{
-    margin-left: 70%;
+    margin-left: 5rem;
   }
   .about .row .content .box-container{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-      font-family: 'Ubuntu'
+      font-family: 'Ubuntu';
     font-weight: 600;
   }
   .about .row .content .box-container .box p{
@@ -1768,4 +1768,8 @@ form .button-area{
 
 .mb-0{
   margin-right: 2rem;
+}
+
+.unique{
+  margin-left: 20rem;
 }
