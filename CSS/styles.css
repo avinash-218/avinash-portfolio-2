@@ -1203,101 +1203,101 @@ ul{
   left: 0;
   border-radius: 4px;
 }
-.skills .container .col .bar .html:before{
+.skills .container .col .bar .ml:before{
   width: 90%;
-  background: #e03d0b;
+  background: #F4D03F;
 }
 .colorpercentage1{
-  color: #e03d0b;
+  color: #F4D03F;
 }
-.skills .container .col .bar .css:before{
-  width: 82%;
-  background: #2962ff;
+.skills .container .col .bar .dl:before{
+  width: 85%;
+  background: #EC7063;
 }
 .colorpercentage2{
-  color: #2962ff;
+  color: #EC7063;
 }
-.skills .container .col .bar .javascript:before{
-  width: 82%;
-  background: #ffd900;
+.skills .container .col .bar .ccpp:before{
+  width: 85%;
+  background: #85C1E9;
 }
 .colorpercentage3{
-  color:  #ffd900;
+  color:  #85C1E9;
 }
-.skills .container .col .bar .jquery:before{
-  width: 73%;
-  background: #3d10dd;
+.skills .container .col .bar .prob_solve:before{
+  width: 85%;
+  background: #A3E4D7;
 }
 .colorpercentage4{
-  color: #3d10dd;
+  color: #A3E4D7;
 }
-.skills .container .col .bar .php:before{
-  width: 84%;
-  background: #8054c7;
+.skills .container .col .bar .data_vis:before{
+  width: 75%;
+  background: #EDBB99;
 }
 .colorpercentage5{
-  color: #8054c7;
+  color: #EDBB99;
 }
-.skills .container .col .bar .mysql:before{
-  width: 80%;
-  background: #f38b03;
+.skills .container .col .bar .data_clean:before{
+  width: 70%;
+  background: #9B59B6;
 }
 .colorpercentage6{
-  color: #f38b03;
-}
-.skills .container .col .bar .reactjs:before{
-  width: 55%;
-  background: #2962ff;
-}
-.colorpercentage7{
-  color: #2962ff;
-}
-.skills .container .col .bar .java:before{
-  width: 80%;
-  background: #ce0505;
-}
-.colorpercentage8{
-  color: #ce0505;
+  color: #9B59B6;
 }
 .skills .container .col .bar .python:before{
   width: 90%;
-  background: #f7d203;
+  background: #2471A3;
+}
+.colorpercentage7{
+  color: #2E86C1;
+}
+.skills .container .col .bar .java:before{
+  width: 85%;
+  background: #DC7633;
+}
+.colorpercentage8{
+  color: #DC7633;
+}
+.skills .container .col .bar .python:before{
+  width: 75%;
+  background: #2E86C1;
 }
 .colorpercentage9{
-  color: #f7d203;
+  color: #2fdf7e;
 }
-.skills .container .col .bar .android:before{
-  width: 70%;
+.skills .container .col .bar .sql:before{
+  width: 85%;
   background: #2fdf7e;
 }
 .colorpercentage10{
-  color:  #2fdf7e;
-}
-.skills .container .col .bar .nodejs:before{
-  width: 70%;
-  background: #298521;
-}
-.colorpercentage11{
-  color: #298521;
+  color:  #85929E;
 }
 .skills .container .col .bar .vcs:before{
-  width: 88%;
+  width: 75%;
+  background: #85929E;
+}
+.colorpercentage11{
+  color: #f14e32;
+}
+.skills .container .col .bar .html:before{
+  width: 50%;
   background: #f14e32;
 }
 .colorpercentage12{
   color: #f14e32;
 }
-.skills .container .col .bar .cms:before{
+/*.skills .container .col .bar .cms:before{
   width: 85%;
   background: #1771e7;
-}
+}*/
 .colorpercentage13{
   color: #1771e7;
 }
-.skills .container .col .bar .firebase:before{
+/*.skills .container .col .bar .firebase:before{
   width: 90%;
   background: #ffae00;
-}
+}*/
 .colorpercentage14{
   color: #ffae00;
 }
