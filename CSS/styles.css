@@ -1444,6 +1444,12 @@ ul{
   border-radius: 6px;
 }
 
+.Research .contentt:hover{
+  transform: translateX(60px);
+  margin-left: 1rem;
+  box-shadow: 0 5px 8px rgba(0, 2, 68, 0.4);
+}
+
 .Experience .contentt:hover{
   transform: translateX(60px);
   margin-left: 1rem;
@@ -1492,6 +1498,11 @@ ul{
   }
 }
 
+.Research{
+  padding-bottom: 3rem;
+  font-family: 'Ubuntu';
+}
+
 .Experience{
   padding-bottom: 3rem;
   font-family: 'Ubuntu';
@@ -1505,6 +1516,12 @@ ul{
 .Education{
   padding-bottom: 3rem;
   font-family: 'Ubuntu';
+}
+.Research #particles4-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 .Experience #particles4-js {
   position: absolute;
