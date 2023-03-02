@@ -357,6 +357,7 @@ body.offcanvas {
   padding: 0; }
 
 .colorlib-experience,
+.colorlib-projects,
 .colorlib-skills,
 .colorlib-education,
 .colorlib-blog,
@@ -373,6 +374,7 @@ body.offcanvas {
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-experience,
+    .colorlib-projects,
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
@@ -1448,6 +1450,12 @@ ul{
   box-shadow: 0 5px 8px rgba(0, 2, 68, 0.4);
 }
 
+.Projects .contentt:hover{
+  transform: translateX(60px);
+  margin-left: 1rem;
+  box-shadow: 0 5px 8px rgba(0, 2, 68, 0.4);
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
@@ -1489,11 +1497,22 @@ ul{
   font-family: 'Ubuntu';
 }
 
+.Projects{
+  padding-bottom: 3rem;
+  font-family: 'Ubuntu';
+}
+
 .Education{
   padding-bottom: 3rem;
   font-family: 'Ubuntu';
 }
 .Experience #particles4-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.Projects #particles4-js {
   position: absolute;
   height: 100%;
   width: 100%;
