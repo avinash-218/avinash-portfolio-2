@@ -475,7 +475,7 @@ font-family: "Montserrat", Georgia, serif;}
       display: -moz-inline-stack;
       display: inline-block;
       zoom: 1;
-      *display: inline;
+      display: inline;
       width: 30px;
       height: 2px;
       color: #000;
@@ -1206,6 +1206,13 @@ ul{
   border-radius: 4px;
 }
 
+.skills .container .col .bar .cuda:before{
+  width: 85%;
+  background: #60ed0e;
+}
+.colorpercentage1{
+  color:  #60ed0e;
+}
 
 .skills .container .col .bar .ml:before{
   width: 85%;
